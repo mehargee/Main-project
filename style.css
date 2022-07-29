@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: rgb(244, 242, 242);
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Home logo and Navbar section */
+
+header {
+    background: black;
+    color: white;
+}
+
+/* logo */
+#logo h3 {
+    font-weight: bold;
+    padding-top: 15px;
+    color: yellow;
+}
+
+#logo h3:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline-block;
+}
+
+#navbar ul li a {
+    color: gray;
+    padding: 40px 30px 5px 30px;
+    display: block;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    background-color: yellow;
+}
+
+/* slider__________HOME__________________________________ */
+
+.slider-text {
+    background: url(banner-1.jpg) no-repeat;
+    height: 70vh;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    position: relative;
+}
+
+.slider-text h1, .slider-text-2 h1 {
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+.slider-text h1 span, .slider-text-2 h1 span  {
+    color: yellow;
+}
+
+.slider-text h3 , .slider-text-2 h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.button {
+    border: 1px solid rgba(255, 255, 0, 0.3);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.3);
+    color: white;
+}
+
+.slider-text a:hover, .slider-text-2 a:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    /* slider---------------------about */
+
+    .slider-text-2 {
+        background: url(banner-2.jpg) no-repeat;
+        height: 70vh;
+        background-position: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* text-align: center; */
+        align-items: center;
+        position: relative;
+    }
+
+/* three box------------------------------ */
+.three-box {
+    position: absolute;
+    top: 480px;
+    margin: 0 5%;
+}
+
+.green-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: #2ec66b;
+    color: white;
+
+}
+
+.green-box:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.red-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: #e97262;
+    color: white;
+}
+
+.red-box:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.b-1-btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: #f9cb1e;
+
+}
+
+.b-1-btn a {
+    display: inline-block;
+    color: black;
+}
+
+.b-1-btn a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    padding: 15px 25px;
+    background-color: white;
+}
+
+form select,
+form input {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 25px;
+}
+
+.yellow-box {
+    display: flex;
+    background-color: #f9cb1e;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.yellow-box button {
+
+    padding: 5px 10px;
+    border: 1px solid #f9cb1e;
+    background-color: #e8bb05;
+}
+
+.yellow-box button:hover {
+    cursor: pointer;
+    background-color: #f6dd82;
+}
+
+#text-lorem {
+    margin: 100px 0;
+    color: black;
+}
+
+.loram {
+    font-size: 44px;
+    word-spacing: 10px;
+    font-weight: bold;
+    color: rgb(61, 42, 42);
+}
+
+
+/* Home four box--------------------------- */
+
+.four-into-four {
+    margin-top: 600px;
+}
+
+#home-4-box P {
+    text-align: justify;
+    padding: 10px 15px 20px 10px;
+
+}
+
+.section-2 {
+    background-color: white;
+    padding: 50px 0 100px 0;
+}
+
+#home-4-box span {
+    text-align: justify;
+    padding: 0 0 20px 10px;
+    color: rgb(186, 187, 188);
+
+}
+
+#for-div-p p {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.boder-TR {
+    border-top: 1px solid rgb(157, 154, 154);
+    border-right: 1px solid rgb(157, 154, 154);
+}
+
+.boder-t {
+    border-top: 1px solid rgb(157, 154, 154);
+}
+
+#div-text {
+    text-align: center;
+    font-size: 36px;
+}
+
+.four-box-text {
+    margin-top: 100px;
+}
+
+hr {
+    border: 2px solid gray;
+}
+
+table {
+    text-align: center;
+}
+
+table p {
+    text-align: justify;
+    padding: 10px 10px;
+
+}
+
+#div-mr {
+    margin-top: 100px;
+}
+
+#div-mr2 {
+    margin-top: 50px;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}

@@ -65,7 +65,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* text-align: center; */
     align-items: center;
     position: relative;
 }
@@ -289,4 +288,57 @@ footer {
     background-color: black;
     color: white;
 
+}
+
+/* <!-- slide one image --> */
+
+section#slider-1{
+    background: rgb(218, 218, 218);
+    
+}
+
+/* #top-m1{
+    margin-top: -50px;
+    background-color: white;
+    z-index: 1;
+} */
+
+#one-img-slider{
+    padding-bottom: 25px;
+    background-color: white;
+    }
+
+#one-img-slider h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#gravida{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#one-img-slider p{
+    text-align: justify;
+}
+
+#font {
+    text-align: right;
+}
+
+#font span{
+    margin-left: 15px;
+   }
+
+.gray-p p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+/* about center text */
+
+#about-center-text{
+    margin-top: 30px;
 }

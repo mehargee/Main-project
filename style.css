@@ -69,16 +69,16 @@ header {
     position: relative;
 }
 
-.slider-text h1, .slider-text-2 h1 {
+.slider-text h1, .slider-text-2 h1, .slider-text-3 h1, .slider-text-4 h1 {
     font-size: 72px;
     font-weight: bolder;
 }
 
-.slider-text h1 span, .slider-text-2 h1 span  {
+.slider-text h1 span, .slider-text-2 h1 span, .slider-text-3 h1 span, .slider-text-4 h1 span  {
     color: yellow;
 }
 
-.slider-text h3 , .slider-text-2 h3 {
+.slider-text h3 , .slider-text-2 h3 , .slider-text-3 h3 , .slider-text-4 h3 {
     font-size: 36px;
     font-weight: bold;
 }
@@ -92,7 +92,7 @@ header {
     color: white;
 }
 
-.slider-text a:hover, .slider-text-2 a:hover {
+.slider-text a:hover, .slider-text-2 a:hover, .slider-text-3 a:hover, .slider-text-4 a:hover {
     background-color: yellow;
     color: black;
     font-weight: bold;
@@ -114,6 +114,19 @@ header {
         position: relative;
     }
 
+      /* slider---------------------our tour */
+    .slider-text-3 {
+        background: url(banner-3.jpg) no-repeat;
+        height: 70vh;
+        background-position: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* text-align: center; */
+        align-items: center;
+        position: relative;
+    }
 /* three box------------------------------ */
 .three-box {
     position: absolute;
@@ -432,4 +445,69 @@ section#slider-1{
     padding: 10;
     margin: 0;
     color: black;
+}
+
+    /* Our tour _____________section__*/
+
+.ourTour{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#ourTourSection{
+    margin-top: 600px;
+    margin-bottom: 50px;
+}
+
+
+.tour-img img{
+    background-position: center ;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.tour-div-text-left{
+    float: left;
+    width: 50%;
+    padding: 15px 20px;
+    background-color: white;
+    border-right: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.tour-div-text-right{
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    padding: 23px 20px;
+    color: rgb(100, 104, 106);
+    background-color: white;
+}
+
+.duration-tour{
+    float: left;
+    width: 70%;
+    color: white;
+    background-color: #1CA7C8;
+    padding: 15px 0 10px 25px;
+
+}
+
+.duration-price{
+    float: right;
+    width: 30%;
+    font-weight: bold;
+    color: white;
+    padding: 15px 0 10px 0px;
+    background-color: #1687A6;
+    display: block;
+    text-align: center;
+    
+}
+
+.duration-price:hover{
+    cursor: pointer;
+    background-color: #5cd8f7;
 }

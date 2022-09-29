@@ -511,3 +511,48 @@ section#slider-1{
     cursor: pointer;
     background-color: #5cd8f7;
 }
+
+/* OUR TOUR LAST FOUR DIVS */
+#div-tour-last{
+    
+}
+
+.border-div{
+    border: 1px solid lightgrey;
+}
+.book-now{
+    padding: 15px 20px;
+    color: white;
+    text-align: center;
+    background-color: #8C8C8C;
+    
+}
+
+#div-tour-last p{
+    font-size: 14px;
+}
+
+.book-now:hover{
+    background-color: #f9cb1e;
+    cursor: pointer;
+}
+
+.book-now a{
+    text-decoration: none;
+    color: white;
+}
+
+#last-para p{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#foot-colr{
+    color: #f9cb1e;
+}
+
+#foot-colr:hover{
+    color: white;
+    cursor: pointer;
+}
